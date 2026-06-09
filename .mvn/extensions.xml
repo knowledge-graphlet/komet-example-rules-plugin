@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  IKE-Network — .mvn/extensions.xml
+
+  Registers the scpexe:// wagon used by mvn site:deploy, matching the rest of the
+  IKE build. Normally materialized by the ike:scaffold-publish flow (ike-issues#338);
+  included here so the example pack builds in the same environment as komet-claude-plugin.
+-->
+<extensions>
+    <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ssh-external</artifactId>
+        <version>3.5.3</version>
+    </extension>
+</extensions>
