@@ -74,3 +74,12 @@ contributed entirely by this plugin. Remove the jar (and restart) to remove the 
 - Return more rule classes from `ExampleRuleProvider.ruleClasses()`.
 - Replace `ExampleSuggestedAction` with real work; use `viewCalculator()` to read the component,
   its STAMP, and version history.
+<!-- BEGIN ike-managed: developer-setup -->
+
+## Developer Setup
+
+New to IKE development? The
+[Developer Environment guide](https://ike.network/ike-tooling/ike-build-standards/developer-environment.html)
+covers IDE configuration, JDK 25 setup, and the tooling conventions
+every IKE workspace expects — start there before your first build.
+<!-- END ike-managed: developer-setup -->
