@@ -7,7 +7,7 @@
     <parent>
         <groupId>network.ike.platform</groupId>
         <artifactId>ike-parent</artifactId>
-        <version>178</version>
+        <version>186</version>
         <relativePath/>
     </parent>
 
@@ -63,6 +63,7 @@
              (same major) — this is the rule-pack compatibility contract (ike-issues#626).
              Keep this aligned with the komet release you deploy the pack into. -->
         <komet-bom.version>3.0.12-SNAPSHOT</komet-bom.version>
+        <java.version>27</java.version>
     </properties>
 
     <dependencyManagement>
