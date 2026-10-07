@@ -13,7 +13,7 @@
 
     <groupId>network.ike.komet</groupId>
     <artifactId>komet-example-rules-plugin</artifactId>
-    <version>6-64bit-SNAPSHOT</version>
+    <version>6-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Komet Example Rules Plugin</name>
@@ -62,7 +62,7 @@
              A rule pack must build against a komet-bom compatible with the target image
              (same major) — this is the rule-pack compatibility contract (ike-issues#626).
              Keep this aligned with the komet release you deploy the pack into. -->
-        <komet-bom.version>3.0.12-64bit-SNAPSHOT</komet-bom.version>
+        <komet-bom.version>3.0.12-SNAPSHOT</komet-bom.version>
         <java.version>27</java.version>
         <!-- The nid build check (tinkar-core nid-check, IKE-Network/ike-issues#1244): how it
              reports (error, or warning for a census), which classes may narrow a nid, and
@@ -77,7 +77,7 @@
             <dependency>
                 <groupId>dev.ikm.komet</groupId>
                 <artifactId>komet-bom</artifactId>
-                <version>3.0.12-64bit-SNAPSHOT</version>
+                <version>3.0.12-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
