@@ -36,7 +36,7 @@ import javafx.scene.control.Alert;
  */
 public final class ExampleSuggestedAction extends AbstractActionSuggested {
 
-    private final int nid;
+    private final long nid;
 
     /**
      * Creates the action for a focused component version.
